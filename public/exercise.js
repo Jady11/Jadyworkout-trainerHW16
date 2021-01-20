@@ -28,7 +28,7 @@ async function initExercise() {
     location.search = "?id=" + workout._id;
   }
 
-}
+};
 
 initExercise();
 
