@@ -31,8 +31,15 @@ const WorkoutSchema = new Schema({
         },
         sets: {
             type: Number
-        },
-    }]
+        }‹
+    }
+]
+},
+{
+    toJSON: {
+    
+        virtuals: true
+    }
 });
 
 WorkoutSchema.virtual("totalDuration").get(function() {
