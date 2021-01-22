@@ -31,7 +31,7 @@ const WorkoutSchema = new Schema({
         },
         sets: {
             type: Number
-        }‹
+        }
     }
 ]
 },
